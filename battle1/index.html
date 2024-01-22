@@ -1,0 +1,68 @@
+<body>
+    <div class= container>
+        <div class="circle"></div>
+        <div class="trunk"></div>
+        <div class="right-trunk"></div>
+        <div class="left-trunk"></div>
+    </div>
+  <style>
+    
+    body{
+      background-color:white;  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+        width: 400px;
+        height: 300px;
+        box-sizing: border-box;
+        background-color: #024817;
+        position:relative;
+        
+    }
+    .circle {
+      width: 150px;
+      height: 150px;
+      background-color:#088540;
+      border-radius:90px;
+      position: absolute;
+      top:50px;
+      right: 140px
+    }
+    .trunk{
+      width: 20px;
+      height:220px;
+      background-color: #83CF9D;
+      position: absolute;
+      bottom: -10px;
+      left: 175px;
+      border-radius: 20px;
+    }
+    .right-trunk{
+      background-color: #83CF9D;
+      width:20px;
+      height:60px;
+      border-radius: 20px;
+      position: absolute;
+      top:110px;
+      right: 185px;
+      transform:rotate(45deg)
+    }
+      .left-trunk{
+      background-color: #83CF9D;
+      width:20px;
+      height:60px;
+      border-radius: 20px;
+      position: absolute;
+      top:110px;
+      left: 155px;
+      transform:rotate(315deg)
+    }
+    
+  </style> 
+  </body>
+  
+  
+  
